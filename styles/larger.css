@@ -1,0 +1,32 @@
+@media screen and (min-width: 780px) {
+    a#menu{
+      display: none;
+    }
+    .navigation{
+      display: flex;
+      flex-direction: row;
+    }
+   .navigation a {
+      display: flex;
+  
+    }
+      .title{
+          font-size: 1.75em;
+      }
+      .container{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+      }
+    
+      footer .info{
+          display:flex;
+          flex-direction: row;
+          justify-content:center;
+    
+      }
+  .map iframe{
+    width:100%;
+  }
+      
+  }
+    
