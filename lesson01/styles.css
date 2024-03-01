@@ -1,0 +1,40 @@
+
+html{
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+    margin: 0;
+}
+header{
+    display: block;
+    text-align: center;
+    background-color: rgb(85, 123, 155);
+    padding: 20px;
+    
+}
+.container{
+ border-bottom: solid 1px rgba(110, 133, 210, 0.619);
+ padding:10px;
+ margin: 20px;
+}
+
+.landscape {
+    width:30%;
+    height: auto;
+    margin:30px;
+}
+.coolors{
+    width:40%;
+    height: auto;
+    margin: 30px;
+}
+.font-one{
+    font-family: 'Raleway', sans-serif;
+    font-size:40px;
+    list-style: none;
+}
+.font-two{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    list-style: none;
+    padding-top: 30px;
+}
