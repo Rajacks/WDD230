@@ -8,18 +8,20 @@ html, body {
     min-height: 100vh;
     background-color: white;
     font-family: 'Poppins', sans-serif;
-    line-height: 28px;
+    line-height: 28px; /* Add unit here */
     color: rgb(52, 52, 92);
 }
+
 header {
     display: flex;
-   flex-direction: row;
+    flex-direction: column; /* Change to column for mobile view consistency */
     justify-content: center;
     align-items: center;
     gap: 20px;
     background-color: rgb(52, 52, 92);
-    padding:10px; 
+    padding: 10px; 
 }
+
 
 h1{
     color:white;
