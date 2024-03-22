@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Raymund Antrone">
-    <meta name="description" content="Philippines Chamber of Commerce home page">
+    <meta name="description" content="Philippines Bacolod Chamber of Commerce - Membership Form">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <title>Philippines Chamber of Commerce</title>
+    <title>Philippines Chamber of Commerce - Membership Form</title>
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Philippines Bacolod Chamber of Commerce website.">
     <meta property="og:type" content="website">
@@ -50,7 +50,8 @@
                     <label for="email">Email* <input id="email" type="email" name="email" placeholder="someone@email.com" required></label>
                     <label for="phone">Phone* <input id="phone" type="tel" name="phone" required></label>
                     <label for="businessn">Business/Organization's Name* <input id="businessn" type="text" name="businessn" required></label>
-                    <label for="description">Business/Organization's Description <input id="description" type="text" name="description" placeholder="Please, use a maximum of two sentences."></label>
+                    <label for="description">Business/Organization's Description <textarea id="description" name="description" placeholder="Please, use a maximum of two sentences."></textarea></label>
+                    <input type="hidden" name="hiddenField" value="hiddenValue">
                 </fieldset>
 
                 <fieldset>
@@ -100,3 +101,4 @@
     <script src="scripts/chamber-scripts.js"></script>
 </body>
 </html>
+
