@@ -1,0 +1,111 @@
+{
+    "weeks": [
+        {
+            "week": "01",
+            "links": [
+                {
+                    "url": "https://rajacks.github.io/wdd230/week01/holygrail.html",
+                    "title": "Holigrail"
+                }
+            ]
+        },
+        {
+            "week": "02",
+            "links": [
+                {
+                    "url": "https://rajacks.github.io/wdd230/week02/design.html",
+                    "title": "Design Code Pen"
+                },
+                {
+                    "url": "https://rajacks.github.io/wdd230/week02/media-query.html",
+                    "title": "Media Queries"
+                },
+                {
+                    "url": "https://rajacks.github.io/wdd230/week02/design-principles.html",
+                    "title": "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "week": "03",
+            "links": [
+                {
+                    "url": "https://rajacks.github.io/wdd230/week03/lazyload.html",
+                    "title": "Lazy Loading"
+                },
+                {
+                    "url": "https://rajacks.github.io/wdd230/week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "https://rajacks.github.io/wdd230/week03/bom.html",
+                    "title": "Book of Mormon Favorite Chapters App"
+                }
+            ]
+        },
+        {
+            "week": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/Rajacks/pen/BaEpPpE",
+                    "title": "CSS Pseudo Classes"
+                },
+                {
+                    "url": "week04/images/combinators.png.png",
+                    "title": "CSS Combinators"
+                },
+                {
+                    "url": "https://rajacks.github.io/wdd230/week04/tablebuild.html",
+                    "title": "table build"
+                },
+                {
+                    "url": "https://rajacks.github.io/wdd230/form.html",
+                    "title": "Form build"
+                },
+                {
+                    "url": "https://rajacks.github.io/wdd230/Form-start/index.html",
+                    "title": "HTML Form"
+                }
+            ]
+        },
+        {
+            "week": "05",
+            "links": [
+                {
+                    "url": "https://rajacks.github.io/wdd230/week05/weather.html",
+                    "title": "Consuming a Weather APi"
+                },
+                {
+                    "url": "https://codepen.io/Rajacks/pen/XWQgdYO",
+                    "title": "CSS Psuedo-elements"
+                }
+            ]
+        },
+        {
+            "week": "06",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        },
+        {
+            "week": "07",
+            "links": [
+                {
+                    "url": "",
+                    "title": ""
+                },
+                {
+                    "url": "",
+                    "title": ""
+                }
+            ]
+        }
+    ]
+}
