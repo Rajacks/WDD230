@@ -1,0 +1,30 @@
+{
+    "wardInformation": {
+    "familyName": "Antrone",
+    "moveInDate": "2023-12-12",
+    "numberOfPeople": 4,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Raymund Antrone",
+        "gender": "Male",
+        "birthdate": "1996-06-10"
+      },
+      {
+        "name": "Jackyly Aresgado Antrone",
+        "gender": "Female",
+        "birthdate": "1998-03-20"
+      },
+      {
+        "name": "Princess lynn Antrone",
+        "gender": "Female",
+        "birthdate": "2009-12-25"
+      },
+      {
+        "name": "Ludilynn Antrone",
+        "gender": "Female",
+        "birthdate": "2010-12-26"
+      }
+    ]
+    }
+  }

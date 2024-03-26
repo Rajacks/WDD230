@@ -85,12 +85,12 @@
             "week": "06",
             "links": [
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "https://rajacks.github.io/wdd230/week05/prophets.html",
+                    "title": "Prophets"
                 },
                 {
-                    "url": "",
-                    "title": ""
+                    "url": "https://rajacks.github.io/wdd230/week05/new-ward-members.json",
+                    "title": "JSON"
                 }
             ]
         },
