@@ -330,10 +330,10 @@ font-size: 30px;
     flex-direction: column;
 }
 .sidebar{
-    background-color:white;
+    background-color:rgb(80, 129, 114);
 }
 .details{
-    box-shadow: 0 0 20px rgb(212, 205, 203);
+    box-shadow: 0 0 20px rgb(121, 170, 192);
     border-radius: 5px;
     margin:30px;
     padding:20px;
