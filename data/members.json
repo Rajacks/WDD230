@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "SM Super Mall",
+            "address": "SM City Bacolod, Rizal St, Reclamation Area, Bacolod, 6100 Negros Occidental",
+            "phone": "02-8-833-8539",
+            "website": "https://www.smsupermalls.com/",
+            "logo": "images/logos/SM.png.jpg",
+            "membership": "Gold",
+            "business_hours": "10:00 AM - 10:00 PM Mon-Sun"
+        },
+        {
+            "name": "Robinsons Supermarket",
+            "address": "Robinsons Place Bacolod, Lacson Street, Mandalagan, Bacolod City 6100 Negros Occidental",
+            "phone": "+63(34)4410422",
+            "website": "https://www.robinsonssupermarket.com.ph/",
+            "logo": "images/logos/robinsons.jpg",
+            "membership": "Silver",
+            "business_hours": "10:00 AM - 9:00 PM Mon-Sun"
+        },
+        {
+            "name": "Ayala Malls",
+            "address": "Gatuslao Street, Bacolod City 6100 Negros Occidental",
+            "phone": "+63347007303",
+            "website": "https://www.ayalamalls.com/",
+            "logo": "images/logos/ayala.jpg",
+            "membership": "Gold",
+            "business_hours": "10:00 AM - 8:00 PM Sunday-thursday, 10:00 AM - 9:00 PM Friday-Saturday"
+        },
+        {
+            "name": "Mang Inasal",
+            "address": "City Mall Mandalagan, Bacolod City Philippines",
+            "phone": "(034) 432 9287 / (0942) 320 2415",
+            "website": "https://www.manginasal.ph/",
+            "logo": "images/logos/manginasal.jpg",
+            "membership": "Silver",
+            "business_hours": "9:00 AM - 09:00 PM Mon-sunday, CLOSED-Good friday, CLOSED-Black saturday"
+        },
+        {
+            "name": "Riverside",
+            "address": "B.S. Aquino Drive Bacolod City, 6100 Philippines.",
+            "phone": "(63 34) 432-7624 / (63 34) 433-9805 ",
+            "website": "https://www.rivermedcenter.net/doctors/",
+            "logo": "images/logos/riverside.png",
+            "membership": "Silver",
+            "business_hours": "Open 24/7 Mon-Sunday"
+        },
+        {
+            "name": "BDO",
+            "address": " Hilado corner F.Y. Manalo St., 6100 Bacolod City, Negros Occidental",
+            "phone": "(034)434-7698",
+            "website": "https://www.bdo.com.ph/personal/online/",
+            "logo": "images/logos/BDO.png",
+            "membership": "Gold",
+            "business_hours": "8:30 AM - 5:30 PM Mon-Fri"
+        },
+        {
+            "name": "Mambukal.",
+            "address": "Brgy. Minoyan, Murcia Negros Occidental Bacolod City, 6100",
+            "phone": "(0909)9769988/(0961)7579710",
+            "website": "https://mambukal.com/MAMBUKAL/MainController",
+            "logo": "images/logos/mambukal.png",
+            "membership": "Silver",
+            "business_hours": "7:00 AM - 5:00 PM Tuesday-Sunday CLOSED- Monnday"
+        }
+    ]
+}
