@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Raymund Antrone">
-    <meta name="description" content="Explore Bacolod City's Chamber of Commerce and discover the heart of the Philippines' dynamic business community. Learn about opportunities, services, and resources available, making Bacolod City a prime destination for investment and growth.">
+    <meta name="description" content="Explore Bacolod City's Chamber of Commerce and discover the heart of the Philippines' dynamic business community. Learn about opportunities, services, and resources available, making Bacolod City a prime destination for investment and growth">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <title>Bacolod City Philippines Chamber of Commerce and Discover</title>
+    <title>Bacolod City Philippines Chamber of Commerce</title>
     <link rel="icon" href="images/favicon.ico">
-    <meta property="og:title" content="Bacolod City Philippines Chamber of Commerce and Discover.">
+    <meta property="og:title" content="Bacolod City Philippines Chamber of Commerce website.">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://wp-assets.dotproperty-kh.com/wp-content/uploads/sites/15/2019/08/19035821/Bacolod-City.jpg">
     <meta property="og:url" content="https://rajacks.github.io/wdd230/chamber/">
@@ -40,82 +40,101 @@
     <main>
         <div class="hero-section">
             <picture>
-                <source srcset="images/meetings-small.webp" media="(max-width: 500px)">
-                <source srcset="images/meetings-medium.webp" media="(max-width:1000px)">
+                <source srcset="images/waterfront-small.webp" media="(max-width: 500px)">
+                <source srcset="images/waterfront-medium.webp" media="(max-width:1000px)">
                 <img src="images/The-Ruins-bacolod-large.jpg" alt="Bacolod City Philippines" loading="lazy" width="1500" height="750">
             </picture>
             
             <div class="hero-text">
                 <h1>Bacolod City Philippines Chamber of Commerce</h1>
-                <p>You can do great things in the community!</p>
+                <p>You can do great things in the community!.</p>
                 <a class="button" href="https://rajacks.github.io/wdd230/chamber/join.html">Become a Member</a>
-                <!-- <button class="button">Become a Member</button> -->
+               
             </div>
         </div>
     </main>
     <div class="more-title">
-        <h1>Quick Links</h1>
+        <h2>Quick Links</h2>
     </div>
     <section class="more">
-            <a href="#"><img class="icons" src="images/search.png" alt="serach icon in sky blue">
+            <a href="https://guidetothephilippines.ph" target="_blank"><img class="icons" src="images/search.png" alt="serach icon in sky blue">
             <h3>Resources</h3>
             </a>
       
-            <a href="#"><img class="icons" src="images/business.png" alt="small business icon shake hands">
-            <h3>Small Business</h3>
+            <a href="https://www.businesslist.ph/location/bacolod" target="_blank"><img class="icons" src="images/business.png" alt="small business icon shake hands">
+            <h3>Local Businesses</h3>
             </a>
     
-            <a href="#"><img class="icons" src="images/upcoming.png" alt="events icon">
+            <a href="https://guidetothephilippines.ph/articles/history-culture/masskara-festival-bacolod-guide" target="_blank"><img class="icons" src="images/upcoming.png" alt="events icon">
             <h3>Local Events</h3>
             </a> 
     </section>
     <section class="Mission Vision">
         <div class="statement">
-            <h1>Mission Vision</h1>
-            <p>Our mission vision about the bacolod city of smile are to be made known into the international cultures
+            <h2>Mission Vision</h2>
+            Our mission vision about the bacolod city of smile are to be made known into the international cultures
             And to represent the importance of natures and tourism . Where in  
             all can visit and Become more familiar with the places and delicacies
-            of Bacolod City of Smile, Philippines.</p>
-            <p> Thats not the end of the offer, We would like to let you know that this place has a lot of business where in we can offer,
+            of Bacolod City of Smile, Philippines. Thats not the end of the offer, We would like to let you know that this place has a lot of business where in we can offer,
             The busines around that there were 281,153 establishments in the formal sector of the economy in 2021,.</p>
         </div>
         <img src="images/meetings-medium.webp" alt="Chamber working">
     </section>
-    <div class="title">
+
 
         <section class="mid-section">
-            <div class="weather">
-                <div class="left">
-                    <img src="images/Cloud.png" alt="clouds and sun vector" class="weather-icon">
+            <article class="weather">
+                <div class="home-weather1"> 
+                    <h2>Current Temperature</h2>
+                    <div class="local-weather">
+                        <figure>
+                            <img id="weather-icon" src="images/weather-icon/clouds.webp" alt="cloudy">
+                        </figure>
+                        <p class="temp"><span id="temperature"></span> °F</p>
+                        <p><span id="weather-description"></span></p>
+                        <!-- <p>Wind Speed</p>
+                        <p>Windchill:N/A</p> -->
+                    </div>
                 </div>
-                <div class="right"> 
-                    <h2>Weather</h2>
-                    <p> 31.1°C </p>
-                    <p>Partly cloudy</p>
-                    <p>Humidity:86% </p>
-                    <p>Windchill: N/A</p>
-                </div>
-            </div>
-
-            <div class="event">
-                <h2>Upcoming Event</h2>
-                <h4>4th Sunday of October,2024</h4>
-                <p>Join us and celebrate the most special day with festivals where all can join and enjoy.</p>
-            </div>
+                    <hr>
+                    <div class="home-weather2">
+                        <h2>Weather Forecast </h2>
+                        <section id="forecast">
+                            <div class="square">
+                                <img src="images/weather-icon/mist.png"  id="icon1" class="weather-icon" alt="cloudy icon">
+                                <h4 id="day1">Tuesday</h4>
+                                <p id="temp-forecast1">40°F</p> 
+                            </div> 
+                            <div class="square">
+                                <img src="images/weather-icon/mist.png"  id="icon2" class="weather-icon" alt="cloudy icon">
+                                <h4 id="day2">Tuesday</h4>
+                                <p id="temp-forecast2">40°F</p> 
+                            </div>  
+                            <div class="square">
+                                <img src="images/weather-icon/mist.png" id="icon3" class="weather-icon" alt="cloudy icon">
+                                <h4 id="day3">Tuesday</h4>
+                                <p id="temp-forecast3">40°F</p> 
+                            </div> 
+                        </section>       
+                    </div>
+            </article>
         </section>
 
-        <h1>Current News</h1>
+    <div class="news-title">
+        <h2>Current News</h2>
     </div>
+   
     <section class="news">
+
         <div class="card">
             <img src="images/pasalubong.jpg" alt="People Always has a Pasalubong(souvenir or gift from a trip).">
             <div class="card-content">
                 <h2>Culture Foods</h2>
                 <p>We invite you to here in bacolod you will gonna exprience the best tour ever, 
-                We have a lot of grand opening places such a restauran and foods that can brings joy to your family.
-                The bacolodnon were gonna to see and help you bring to the best places. 
-                With your family this is gonna be exciting and can brings new happiest memories in bacolod city of smile.</p>
-                   <a href="" class="btn">Read More</a> 
+                    We have a lot of grand opening places such a restauran and foods that can brings joy to your family.
+                    The bacolodnon were gonna to see and help you bring to the best places. 
+                    With your family this is gonna be exciting and can brings new happiest memories in bacolod city of smile.</p>
+                   <a href="https://cmsbcd.com/" target="_blank" class="btn">Read More</a> 
             </div>
         </div> 
 
@@ -127,7 +146,7 @@
                    Are you ready for the training?, These opportunity is for 
                     you with essential skills and strategies for success. Workshops will be free 
                     for the first month of launch. </p>
-                   <a href="" class="btn">Read More</a> 
+                   <a href="https://www.businesslist.ph/category/training/city:bacolod" target="_blank" class="btn">Read More</a> 
             </div>
         </div>
 
@@ -139,15 +158,29 @@
                     Whether you're a seasoned rider or just starting on your traveler 
                     adventure, our people helping to know were you go, Just download the maps with bacolod sign 
                     for better experience and help you discover the best routes our city has to offer. </p>
-                   <a href="" class="btn">Read More</a> 
+                   <a href="https://outoftownblog.com/bacolod-travel-guide-things-to-do-and-see-in-bacolod-city/" target="_blank" class="btn">Read More</a> 
             </div>
         </div>  
     </section>
+    <div id="meetGreetBanner" class="banner">
+        <p>Please come and visit us here in Bacolod to enjoy and to create memories with your family and friends</p>
+        <button onclick="closeBanner()">Close</button>
+    </div>
+    <section class="businessSpotlights">
+        <h2 class="title-business">Business Spotlight</h2>
+        <div class="spotlightCard">
+
+        </div>
+    </section>
+
     <footer>
-        <p>Philippines , Bacolod City 6100</p>
-        <p><span id="year">© 2024</span> | -Raymund Antrone- | - WDD230 -</p>
+        <p>Bacolod City, Philippines, Negross Occidental 6100</p>
+        <p><span id="year">© 2024</span> | Raymund Antrone  | WDD230</p>
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/chamber-scripts.js"></script>
+    <script src="scripts/weatherchamber.js"></script>
+    <script src="scripts/spotlight.js"></script>
+    <script src="scripts/homepage.js"></script>
 </body>
 </html>

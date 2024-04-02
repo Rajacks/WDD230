@@ -1,7 +1,7 @@
 :root{
     --primary-color:#093042;
     --second-color:#c9dae1;
-    --third-color:#4C722F;
+    --third-color:#495f9c;
     --fourth-color:rgba(230, 230, 230, 0.918);
 }
 *{
@@ -330,10 +330,10 @@ font-size: 30px;
     flex-direction: column;
 }
 .sidebar{
-    background-color:rgb(80, 129, 114);
+    background-color:rgb(109, 145, 201);
 }
 .details{
-    box-shadow: 0 0 20px rgb(121, 170, 192);
+    box-shadow: 0 0 20px rgb(128, 129, 134);
     border-radius: 5px;
     margin:30px;
     padding:20px;
