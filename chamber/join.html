@@ -6,8 +6,8 @@
     <meta name="author" content="Raymund Antrone">
     <meta name="description" content="Philippines Bacolod Chamber of Commerce - Membership Form">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;800&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
@@ -29,29 +29,27 @@
         </div>
         <a id="menu" href="#"></a>
         <nav>
-            <ul class="navigation">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="discover.html">Discover</a></li>
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="#">Join</a></li>
-            </ul>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
         </nav>   
     </header>
     <h1 class="header">Membership Account Form</h1>
     <main class="grid-form">
         <section class="member-form">
-            <h2>Membership Form</h2>
             <form method="get" action="thankyou.html" class="mform">
                 <fieldset>
                     <legend>Applicant Information</legend>
                     <label for="fname">First Name* <input id="fname" type="text" name="fname" required></label>
                     <label for="lname">Last Name* <input id="lname" type="text" name="lname" required></label>
-                    <label for="position">Title/position* <input id="position" type="text" name="position" required></label>
-                    <label for="email">Email* <input id="email" type="email" name="email" placeholder="someone@email.com" required></label>
+                    <label for="position">Title/position*<input id="position" type="text" name="position" required></label>
+                    <label for="email">Email*<input id="email" type="email" name="email" placeholder="someone@email.com" required></label>
                     <label for="phone">Phone* <input id="phone" type="tel" name="phone" required></label>
-                    <label for="businessn">Business/Organization's Name* <input id="businessn" type="text" name="businessn" required></label>
-                    <label for="description">Business/Organization's Description <textarea id="description" name="description" placeholder="Please, use a maximum of two sentences."></textarea></label>
-                    <input type="hidden" name="hiddenField" value="hiddenValue">
+                    <label for="businessn">Business/Organization's Name*<input id="businessn" type="text" name="businessn" required></label>
+                    <label for="description">Business/Organization's Description<input id="description" type="text" name="description" placeholder="Please, use a maximum of two sentences."></label>
                 </fieldset>
 
                 <fieldset>
@@ -59,13 +57,14 @@
                     <label><input type="radio" name="membership" value="gold">Gold Membership</label>
                     <label><input type="radio" name="membership" value="silver">Silver Membership</label>
                     <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                    <label><input type="radio" name="membership" value="non profit">NP Membership</label>                       
+                    <label><input type="radio" name="membership" value="non profit">NP Memberhsip</label>                       
                 </fieldset>
                 <input class="button" type="submit" value="Join Membership">
-            </form>
+                <input type="hidden" id="lastSubmitted" name="lastSubmitted">
+            </form>    
         </section>
 
-        <section class="member-desc">
+        <section class="member-desc" >
             <div class="details" id="gold">
                 <h2>Gold Membership</h2>
                 <h4>Price Range: Php 10,000- Php 20,000 Annually</h4>
@@ -85,12 +84,13 @@
                 <p>Bronze Members receive access to basic educational resources and workshops organized by the Chamber. These could include introductory seminars or informational sessions on relevant business topics.</p>
             </div>
             <div class="details" id="np">
-                <h2>NP Membership- Php 500/month</h2>
+                <h2>NP Membership</h2>
                 <h4>5% Membership Discounts</h4>
                 <p>We are welcoming the members to be fair with their budget.</p>
                 <p>NP members are also invited to attend seminars and training, and to help to have a scholarship.</p>
             </div>
         </section>
+
     </main>
        
     <footer>
@@ -101,4 +101,3 @@
     <script src="scripts/chamber-scripts.js"></script>
 </body>
 </html>
-
